@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+}
+
+body {
+    background-color: #050505;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 90px;
+    background: #000;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+header nav {
+    width: 80%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    font-size: 1.5rem;
+    color: #999900;
+    transition: .5s;
+}
+
+header nav ul li:hover {
+    color: #fff;
+}
+
+.comments-banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('https://www.theonering.net/torwp/wp-content/uploads/2023/02/3625_lotr-header.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    margin-top: 40px;
+}
+
+.comments-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.comments-container span {
+    color: #dff;
+    font-size: 1.75rem;
+}
+
+.comments-content {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.comments-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #999900;
+    font-size: 1.25rem;
+}
+
+.comments-inputs form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-inputs form button {
+    width: 140px;
+    height: 40px;
+    background: #999900;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 8px 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.comments-inputs form button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.email {
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+}
+
+.comments-button {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    color: #dff;
+}
+
+.footer-logo {
+    width: 260px;
+    height: 70px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/0/0c/The_Lord_of_the_Rings_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer nav {
+    display: none;
+}

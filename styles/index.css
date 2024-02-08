@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+}
+
+body {
+    background-color: #050505;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: #000;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+header nav {
+    width: 80%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    font-size: 1.5rem;
+    color: #999900;
+    transition: .5s;
+}
+
+header nav ul li:hover {
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: url(../assets/icons/lotr-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.trailer-navigation {
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.trailer-navigation-content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trailer-navigation button {
+    color: #999900;
+    font-size: 1.20rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.trailer-navigation button:hover {
+    text-decoration: underline;
+    color: #dff;
+}
+
+.trailer-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 400px;
+    height: 170px;
+    border: 3px solid #999900;
+}
+
+.sinopse {
+    margin-left: 40px;
+    color: #dff;
+    font-size: 1.1rem;
+}
+
+.sinopse button {
+    width: 200px;
+    height: 60px;
+    background: #999900;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 8px 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sinopse button:hover {
+    background: #dff;
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+.cards-container {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.cards {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 12px 12px;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.card-banner1 {
+    background-image: url('https://i.pinimg.com/564x/00/7c/17/007c170c64c7c9820e2c5c8f6df804ff.jpg');
+    background-position: 50% 0%;
+}
+
+.card-banner2 {
+    background-image: url('https://static.wikia.nocookie.net/villains/images/9/9d/Sarumanthewhiteposter.jpg/revision/latest?cb=20230808223334');
+}
+
+.card-banner3 {
+    background-image: url('https://i.pinimg.com/736x/6c/94/81/6c94816562f6b281660828eb8d4f53a6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    color: #dff;
+}
+
+.footer-logo {
+    width: 260px;
+    height: 70px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/0/0c/The_Lord_of_the_Rings_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer nav {
+    display: none;
+}

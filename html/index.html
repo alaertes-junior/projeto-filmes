@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O SDA - Home</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="shortcut icon" href="../assets/icons/one-ring.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/media-queries.css">
+</head>
+<body>
+    <header>
+            <a href="./index.html">
+                <img src="../assets/icons/lotr-logo.png" alt="Senhor dos Anéis - Logo">
+            </a>
+        <nav>
+            <ul>
+                <a href="./index.html">  
+                    <li>Início</li>
+                </a>
+
+                <a href="./gallery.html">
+                    <li>Galeria</li>
+                </a>
+
+                <a href="./comments.html">
+                    <li>Comentários</li>
+                </a>
+
+                <a href="./contact.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner"></div>
+
+    <div class="trailer-navigation">
+        <div class="trailer-navigation-content">
+            <button id="trailer-button1">
+                <span>A Sociedade do Anel</span>
+            </button>
+
+            <button id="trailer-button2">
+                <span>As Duas Torres</span>
+            </button>
+
+            <button id="trailer-button3">
+                <span>O Retorno do Rei</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="trailer-container" id="trailer1">
+        <div class="content">
+            <video class="trailer" id="video1" onplay="playVideo1();" controls>
+                <source 
+                src="../assets/O Senhor dos Anéis_ A Sociedade do Anel (2001) _ Trailer [Legendado](720P_HD).mp4" 
+                type="video/mp4"
+                >
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+
+            <div class="sinopse">
+                <p class="description">
+                    "Frodo Bolseiro, um humilde hobbit, herda um anel poderoso capaz de destruir o mundo 
+                    se cair nas mãos erradas. Ele embarca em uma jornada perigosa para destruir o anel, formando
+                    a Sociedade do Anel junto com amigos e aliados. Enquanto viajam para a Montanha da Perdição 
+                    para destruir o anel, enfrentam inimigos mortais e desafios inimagináveis. Frodo percebe que 
+                    a única maneira de salvar seu mundo é sacrificar tudo para derrotar o mal que o ameaça.
+                </p>
+                <a href="">
+                    <button>Comprar ingresso</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="trailer-container hidden" id="trailer2">
+        <div class="content">
+            <video class="trailer" id="video2" onplay="playVideo2();" controls>
+                <source 
+                src="../assets/O Senhor dos Anéis_ As Duas Torres (2002) _ Trailer [Legendado](720P_HD).mp4" 
+                type="video/mp4"
+                >
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+
+            <div class="sinopse">
+                <p class="description">
+                    "Nesta continuação da saga épica, enquanto Frodo e Sam continuam sua jornada solitária
+                    para destruir o Anel em Mordor, Aragorn, Legolas e Gimli perseguem os sequestradores
+                    dos hobbits Merry e Pippin. Aragorn, um herdeiro do trono de Gondor, lidera a busca
+                    com coragem e determinação. Enquanto isso, Merry e Pippin se envolvem nos conflitos
+                    entre as forças de Saruman e os habitantes de Rohan. Com novos aliados e desafios perigosos,
+                    a luta contra o mal se intensifica em várias frentes."
+                </p>
+                <a href="">
+                    <button>Comprar ingresso</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="trailer-container hidden" id="trailer3">
+        <div class="content">
+            <video class="trailer" id="video3" onplay="playVideo3();" controls>
+                <source 
+                src="../assets/O Senhor dos Anéis_ O Retorno do Rei (2003) _ Trailer [Legendado](720P_HD).mp4" 
+                type="video/mp4"
+                >
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+
+            <div class="sinopse">
+                <p class="description">
+                    "No desfecho da trilogia, Frodo e Sam continuam sua jornada para destruir o Um Anel em Mordor,
+                    enfrentando desafios crescentes. Enquanto isso, Aragorn lidera um exército na batalha final
+                    contra Sauron, aceitando seu papel como rei de Gondor. O destino da Terra-média é decidido em
+                    uma guerra épica, com heróis emergindo e sacrifícios sendo feitos em nome da esperança e da liberdade."
+                </p>
+                <a href="">
+                    <button>Comprar ingresso</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <div class="cards-content">
+            <div class="cards card-banner1">Viggo Mortensen - Aragorn</div>
+            <div class="cards card-banner2">Christopher Lee - Saruman</div>
+            <div class="cards card-banner3">Elijah Wood - Frodo</div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo"></div>
+        <nav>
+            <ul>
+                <a href="./index.html">  
+                    <li>Início</li>
+                </a>
+
+                <a href="./gallery.html">
+                    <li>Galeria</li>
+                </a>
+
+                <a href="./comments.html">
+                    <li>Comentários</li>
+                </a>
+
+                <a href="./contact.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+        <span>Todos os direitos reservados©</span>
+        <span>Desenvolvido por: Alaertes Junior</span>
+    </footer>
+</body>
+<script src="../script.js"></script>
+</html>

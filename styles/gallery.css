@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+}
+
+body {
+    background-color: #050505;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 90px;
+    background: #000;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+header nav {
+    width: 80%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    font-size: 1.5rem;
+    color: #999900;
+    transition: .5s;
+}
+
+header nav ul li:hover {
+    color: #fff;
+}
+
+.gallery-banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('https://pbs.twimg.com/media/DS89fCuXkAAeSbC.jpg');
+    background-size: cover;
+    background-position: 0% 70%;
+    margin-top: 40px;
+}
+
+.images-container {
+    width: 100vw;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.images-container span {
+    color: #999900;
+    font-size: 2rem;
+}
+
+.images-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.gallery-images {
+    width: 390px;
+    height: 270px;
+    border: solid 2px #999900;
+    transition: .5s;
+}
+
+.gallery-images:hover {
+    transform: scale(1.02);
+}
+
+.sda-1 {
+    background-image: url('https://scienceonblog.files.wordpress.com/2019/07/bilbo-speech-main.jpg');
+    background-size: cover;
+}
+
+.sda-2 {
+    background-image: url('https://www.sideshow.com/wp/wp-content/uploads/2021/12/Aragorn-First-Appearance01.jpg');
+    background-size: cover;
+}
+
+.sda-3 {
+    background-image: url('https://cdn.britannica.com/35/201735-050-0B3066E6/Scene-The-Lord-of-the-Rings-Fellowship.jpg');
+    background-size: cover;
+}
+
+.sda-4 {
+    background-image: url('https://sportshub.cbsistatic.com/i/2021/11/21/3cb5edf3-a5a1-47f6-80b2-a6c0d92facf2/moria-fellowship.jpg');
+    background-size: cover;
+}
+
+.sda-5 {
+    background-image: url('https://criticalhits.com.br/wp-content/uploads/2022/11/balrog.jpg');
+    background-size: cover;
+}
+
+.sda-6 {
+    background-image: url('https://static.wikia.nocookie.net/lotr/images/7/79/Argonath.png/revision/latest?cb=20210114222756');
+    background-size: cover;
+    background-position: 50%;
+}
+
+.adt-1 {
+    background-image: url('https://www.gurpzine.com.br/wp-content/uploads/2021/01/uruk-hai.jpg');
+    background-size: contain;
+}
+
+.adt-2 {
+    background-image: url('https://static.wikia.nocookie.net/aotr/images/c/c6/Good_3hunters_loadscreen.png/revision/latest?cb=20210728073235');
+    background-size: cover;
+}
+
+.adt-3 {
+    background-image: url('https://deathwatchminis.files.wordpress.com/2019/01/0_vo75x3aepzfbubdn.jpg');
+    background-size: contain;
+}
+
+.adt-4 {
+    background-image: url('https://concerninghistory.org/wp-content/uploads/2021/09/coetttbs_023.jpg');
+    background-size: cover;
+}
+
+.adt-5 {
+    background-image: url('https://static.wikia.nocookie.net/lotrfanon/images/6/61/Battle_of_Isengard1.jpg/revision/latest?cb=20140910141127');
+    background-size: cover;
+    background-position: 30%;
+}
+
+.adt-6 {
+    background-image: url('https://quadrinheiros.files.wordpress.com/2020/01/gollum-frodo-sam-o-senhor-dos-aneis.jpg?w=560');
+    background-size: cover;
+    background-position: 10%;
+}
+
+.rdr-1 {
+    background-image: url('https://static.wikia.nocookie.net/lotr/images/0/02/MinasMorgul.jpg/revision/latest?cb=20141228211206');
+    background-size: cover;
+}
+
+.rdr-2 {
+    background-image: url('https://static.wikia.nocookie.net/lotr/images/e/e4/Minas_Tirith.jpg/revision/latest?cb=20141228214636');
+    background-size: cover;
+}
+
+.rdr-3 {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/O4g14Y2MFMykCTTmlNkM0W_muTM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22280932/ROTK_eye_of_sauron.jpg');
+    background-size: cover;
+}
+
+.rdr-4 {
+    background-image: url('https://www.looper.com/img/gallery/the-lord-of-the-ringss-army-of-the-dead-explained/intro-1598288164.jpg');
+    background-size: cover;
+}
+
+.rdr-5 {
+    background-image: url('https://i.redd.it/fft0g4rlqq311.jpg');
+    background-size: cover;
+}
+
+.rdr-6 {
+    background-image: url('https://www.theonering.com/wp-content/uploads/2020/11/the-grey-havens.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    color: #dff;
+}
+
+.footer-logo {
+    width: 260px;
+    height: 70px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/0/0c/The_Lord_of_the_Rings_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer nav {
+    display: none;
+}
